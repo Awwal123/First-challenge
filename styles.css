@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Overpass", sans-serif;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.wrapper {
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    
+}
+.card {
+    width: 375px;
+    height: 375px;
+    background-color: hsl(213, 19%, 18%);
+    position: relative;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+.star {
+    width: 35px;
+    height: 35px;
+    background-color: hsl(213, 26%, 22%);
+    padding: 10px;
+    border-radius: 50%;
+    top: 40px;
+    position: absolute;
+    left: 30px;
+}
+.heading {
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0;
+}
+p {
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    position: absolute;
+    bottom: 45%;
+    line-height: 1.3;
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one {
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 30%;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    left: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(213, 26%, 22%);
+    color: hsl(217, 12%, 63%);
+    margin-left: 0;
+    border-radius: 50px;
+}
+.two {
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 30%;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    left: 20%;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(213, 26%, 22%);
+    color: hsl(217, 12%, 63%);
+    margin-left: 0;
+    border-radius: 50px;
+}
+.three {
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 30%;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    left: 35%;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(213, 26%, 22%);
+    color: hsl(217, 12%, 63%);
+    margin-left: 0;
+    border-radius: 50px;
+}
+.four {
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 30%;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    left: 50%;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(213, 26%, 22%);
+    color: hsl(217, 12%, 63%);
+    margin-left: 0;
+    border-radius: 50px;
+}
+.five {
+    position: absolute;
+    margin-bottom: 0;
+    bottom: 30%;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    left: 65%;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(213, 26%, 22%);
+    color: hsl(217, 12%, 63%);
+    margin-left: 0;
+    border-radius: 50px;
+}
+.button {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: white;
+    width: 75%;
+    border-radius: 25px;
+    font-family: "Overpass", sans-serif;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    left: 50px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 30px;
+    letter-spacing: 3px;
+    display: inline-block;    
+}
+
+
