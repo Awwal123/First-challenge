@@ -12,20 +12,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
 }
 .card {
     width: 375px;
     height: 375px;
     background-color: hsl(213, 19%, 18%);
     position: relative;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+   border-radius: 20px;
     
 }
 .image {
     position: absolute;
-    margin-top: 0;
+    margin-top: 20px;
     margin-left: 90px;   
 }
 .text {
@@ -35,7 +34,7 @@ body {
    width: 50%;
    text-align: center;
    border-radius: 25px;
-   margin-top: 40%;
+   margin-top: 43%;
    margin-left: 20%;
    padding: 5px;   
 }
@@ -43,13 +42,13 @@ body {
     position: absolute;
     color: hsl(0, 0%, 100%);
     text-align: center;
-    margin-top: 55%;
+    margin-top: 60%;
     margin-left: 30%;
 }
 p {
     font-size: 15px;
     color: hsl(217, 12%, 63%);
-    margin-top: 70%;
+    margin-top: 75%;
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 10px;
