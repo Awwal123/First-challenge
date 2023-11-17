@@ -11,6 +11,7 @@ body {
     text-align: center; 
     position: absolute;
     margin-top: 40%;
+    bottom: 10px;
 }
 .attribution a {
     font-family:"Overpass" sans-serif ;
@@ -18,11 +19,13 @@ body {
      margin-top: 80%;
      font-size: 16px;
      text-decoration: none;
+  
      
  }
  .cha {
     color: white;
     font-size: 16px;
+    bottom: 20px;
  }
 
 .wrapper {
